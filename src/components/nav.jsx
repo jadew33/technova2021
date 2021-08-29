@@ -4,7 +4,7 @@ const Nav = () => {
     <div className="nav">
       <div className="nav__left">
         <img src={icon} />
-        <h1>Company Name</h1>
+        <h1>AniPals</h1>
       </div>
       <div className="nav__right">
         <h2>Home</h2>

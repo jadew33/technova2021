@@ -1,1 +1,11 @@
 @use "./variables" as *;
+
+.meeting {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 80vh;
+  img {
+    margin-top: 2em;
+  }
+}

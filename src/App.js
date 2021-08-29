@@ -41,7 +41,7 @@ function App() {
           path="/select-meeting-time"
           render={() => <BookSession />}
         />
-        <Route exact path="/confirmed-meeting" render={() => <Meeting />} />
+        <Route exact path="/confirm-meeting" render={() => <Meeting />} />
       </Switch>
     </div>
   );

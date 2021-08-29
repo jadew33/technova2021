@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@500&display=swap");
+.booking {
+  font-family: "Gothic A1", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 80vw;
+  height: 50vh;
+  margin-top: 7em;
+  margin-left: 9em;
+}
+.booking__container {
+  background-color: #e7e7e7;
+  padding: 2em;
+  border-radius: 15px;
+  display: flex;
+}
+.booking .date {
+  margin-top: 5.5em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  height: 90px;
+}
+.booking .date button {
+  border-radius: 8px;
+  outline: none;
+  padding-inline: 1em;
+  background-color: #f8f8f8;
+  transition: all ease-in-out 350ms;
+}
+.booking .date button:focus, .booking .date button:hover,
+.booking .date button .focus {
+  background-color: rgba(253, 140, 115, 0.7);
+}
+.booking .right {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.booking .meeting-selection button {
+  display: inline;
+  background-color: #f8f8f8;
+  outline: none;
+  border-radius: 8px;
+  padding-inline: 1em;
+  padding-block: 0.5em;
+  margin-right: 1em;
+  transition: all ease-in-out 350ms;
+  margin-bottom: 2em;
+}
+.booking .meeting-selection button:focus, .booking .meeting-selection button:hover,
+.booking .meeting-selection button .focus {
+  background-color: rgba(253, 140, 115, 0.7);
+}
+.booking .left {
+  width: 60%;
+  margin: 1em;
+}
+.booking .left > p {
+  width: 60ch;
+}
+.booking .confirm {
+  width: 200px;
+  padding-block: 0.6em;
+  border-radius: 8px;
+  margin-top: 2em;
+  outline: none;
+  position: absolute;
+  right: 10.5em;
+  background-color: rgba(28, 84, 135, 0.7);
+  color: white;
+  transition: all 350ms ease-in-out;
+}
+.booking .confirm:focus, .booking .confirm:hover,
+.booking .confirm .focus {
+  background-color: #1c5487;
+}
+
+.show-confirm {
+  color: blue;
+}
