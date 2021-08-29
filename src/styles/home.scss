@@ -8,4 +8,19 @@
   img {
     margin-top: 2em;
   }
+  position: relative;
+  button {
+    position: absolute;
+    padding-block: 0.7em;
+    padding-inline: 3.5em;
+    border-radius: 8px;
+    color: white;
+    background-color: rgba($blue, 0.7);
+    top: 31.5em;
+    right: 48em;
+    transition: all 350ms ease-in-out;
+    &:hover {
+      background-color: rgba($blue, 1);
+    }
+  }
 }

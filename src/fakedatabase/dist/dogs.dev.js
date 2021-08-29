@@ -34,8 +34,8 @@ var dogs = [{
   id: "4223",
   pic: _Cleo["default"],
   personality: ["Outgoing", "Curious"],
-  loc: "placeholder",
-  company: "placeholder"
+  loc: "Pyramids of Giza",
+  company: "Giza.Cleo"
 }, {
   name: "Doof",
   breed: "Chihuhua",
@@ -43,8 +43,8 @@ var dogs = [{
   pic: _DrDoof["default"],
   id: "9382",
   personality: ["Outgoing", "Adventurous"],
-  loc: "placeholder",
-  company: "placeholder"
+  loc: "City (location kept secret)",
+  company: "Doofenshmirtz Inc"
 }, {
   name: "Alaska",
   breed: "Siberian Husky",
@@ -52,17 +52,17 @@ var dogs = [{
   pic: _Alaska["default"],
   id: "3323",
   personality: ["Shy", "Gentle"],
-  loc: "placeholder",
-  company: "placeholder"
+  loc: "Near the Northern Lights",
+  company: "Royal Canine"
 }, {
   name: "Drip",
   breed: "Golden retriever",
-  desc: "Your perfect candidate for a high school baseball mascot. If your house isn't made of supreme bricks don't talk to me PEASANT",
+  desc: "Your perfect candidate for a high school baseball team mascot. If your house isn't made of supreme bricks don't talk to me PEASANT",
   pic: _Drip["default"],
   personality: ["Sporty", "Laidback"],
   id: "8273",
-  loc: "placeholder",
-  company: "placeholder"
+  loc: "Malibu",
+  company: "Supreme"
 }, {
   name: "Doge",
   breed: "Shiba Inu",
@@ -70,8 +70,8 @@ var dogs = [{
   pic: _Doge["default"],
   id: "4942",
   personality: ["Outgoing", "Curious"],
-  loc: "placeholder",
-  company: "placeholder"
+  loc: "Internet Land",
+  company: "Youtube"
 }, {
   name: "Starbucks Boy",
   breed: "A hybrid of Beagle and Husky",
@@ -79,8 +79,8 @@ var dogs = [{
   desc: "Clearly got more money than us. Elite. Also skilled enough to lick your entire face till you become mushy.",
   personality: ["Reserved", "Laidback"],
   id: "3423",
-  loc: "placeholder",
-  company: "placeholder"
+  loc: "New Bork",
+  company: "Borkbucks"
 }, {
   name: "Calvin",
   breed: "Golden retriever",
@@ -88,8 +88,8 @@ var dogs = [{
   desc: "Not the brand ambassador of Calvin and Klein,yet a lady's man. After all how could one not smother that cute face with kissess.",
   personality: ["Loving", "Adventurous"],
   id: "2851",
-  loc: "placeholder",
-  company: "placeholder"
+  loc: "Atlantis",
+  company: "Krusty Krab"
 }, {
   name: "Tobi",
   breed: "Shih Tzu",
@@ -97,8 +97,8 @@ var dogs = [{
   personality: ["Reserved"],
   id: "7244",
   pic: _Tobi["default"],
-  loc: "placeholder",
-  company: "placeholder"
+  loc: "Tobi Nation",
+  company: "Royal Canine"
 }, {
   name: "Marly",
   breed: "Indie",
@@ -106,8 +106,8 @@ var dogs = [{
   desc: " This Caramel brown pup is bound to bring a smile to your face with her antics ",
   id: "1221",
   pic: _Marly["default"],
-  loc: "placeholder",
-  company: "placeholder"
+  loc: "Maldives",
+  company: "Waterfilteration.inc"
 }, {
   name: "Pom & Rom",
   breed: "Pomeranian",
@@ -115,8 +115,8 @@ var dogs = [{
   desc: "Little fluffy furballs, perfect for cuddling and increasing your dopamine levels!",
   id: "2321",
   pic: _Pom["default"],
-  loc: "placeholder",
-  company: "placeholder"
+  loc: "Pom Pom Island",
+  company: "Krusty Krab"
 }];
 var _default = dogs;
 exports["default"] = _default;
